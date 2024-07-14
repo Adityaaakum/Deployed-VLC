@@ -120,7 +120,7 @@ vlc_pause.addEventListener("click",function(){
 
        
         console.log(vlc_pause.getAttribute("class"));
-        if(vlc_pause.getAttribute("class")==="fa-solid fa-pause"){
+        if(vlc_pause.getAttribute("class")==="fa-solid fa-pause lightup"){
             videoObject.pause();
             vlc_pause.setAttribute("class","fa-solid fa-play");
         }
